@@ -1,0 +1,24 @@
+.explanation {
+  color: grey;
+  font-size: 0.9rem;
+}
+label {
+  display: block;
+}
+.error {
+  color: red;
+}
+:root {
+  background-color: yellow;
+}
+nav {
+  background-color: khaki;
+}
+input {
+  background-color: khaki;
+  border-radius: 50px;
+}
+button {
+  background-color: khaki;
+  border-radius: 50px;
+}

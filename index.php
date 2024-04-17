@@ -1,3 +1,4 @@
 <?php
-
-echo "s";
+session_start();
+require "router.php";
+require "functions.php";
