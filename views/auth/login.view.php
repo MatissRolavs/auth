@@ -15,7 +15,9 @@
         <?php } ?>
     <button>Login</button>
 </form>
-
+<?php if(isset($_SESSION["flash_message"])){?>
+    <p><?= $_SESSION["flash_message"] ?></p>
+<?php } ?>
 <?php
     require "views/components/footer.php";
 ?>

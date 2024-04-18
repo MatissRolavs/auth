@@ -1,4 +1,5 @@
 <?php
+guest();
 require "Validator.php";
 require "Db.php";
 $config = require("config.php");
@@ -28,6 +29,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     $params = [":email" => $_POST["email"],
                 ":password" => password_hash($_POST["password"], PASSWORD_BCRYPT)];
     $db->execute($query,$params);
+
+    $_SESSION['flash_message'] = "Account successfully created!";
+
     header("Location: /login");
     die();
     }
@@ -38,3 +42,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
 $title = "Register";
 require "views/auth/register.view.php";
+
