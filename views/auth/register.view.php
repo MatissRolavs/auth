@@ -1,5 +1,5 @@
-<?php require "views/components/head.php";?>
-<?php require "views/components/navbar.php";?>
+<?php require "../views/components/head.php";?>
+<?php require "../views/components/navbar.php";?>
 
 <form method="POST"> 
     <label>
@@ -20,5 +20,5 @@
 </form>
 
 <?php
-    require "views/components/footer.php";
+    require "../views/components/footer.php";
 ?>

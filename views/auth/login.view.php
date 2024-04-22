@@ -1,5 +1,5 @@
-<?php require "views/components/head.php";?>
-<?php require "views/components/navbar.php";?>
+<?php require "../views/components/head.php";?>
+<?php require "../views/components/navbar.php";?>
 
 <form method="POST"> 
     <label>
@@ -19,5 +19,5 @@
     <p><?= $_SESSION["flash_message"] ?></p>
 <?php } ?>
 <?php
-    require "views/components/footer.php";
+    require "../views/components/footer.php";
 ?>

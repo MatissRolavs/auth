@@ -1,8 +1,8 @@
 <?php
 guest();
-require "Validator.php";
-require "Db.php";
-$config = require("config.php");
+require "../Validator.php";
+require "../Db.php";
+$config = require("../config.php");
 
 
 
@@ -41,5 +41,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
 
 $title = "Register";
-require "views/auth/register.view.php";
+require "../views/auth/register.view.php";
 

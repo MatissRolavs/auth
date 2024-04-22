@@ -1,7 +1,7 @@
 <?php
 guest();
-require "Db.php";
-$config = require("config.php");
+require "../Db.php";
+$config = require("../config.php");
 
 
 
@@ -26,5 +26,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
 
 $title = "Login";
-require "views/auth/login.view.php";
+require "../views/auth/login.view.php";
 unset($_SESSION["flash_message"]);

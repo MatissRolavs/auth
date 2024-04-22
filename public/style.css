@@ -1,0 +1,35 @@
+.explanation {
+  color: grey;
+  font-size: 0.9rem;
+}
+label {
+  display: block;
+  font-size: 50px;
+}
+.error {
+  color: red;
+}
+:root {
+  background-color: palevioletred;
+}
+nav {
+  background-color: darkgreen;
+  font-size: 60px;
+}
+input {
+  background-color: rebeccapurple;
+  border-radius: 50px;
+  width: 100vw;
+  height: 33vh;
+  font-size: 120px;
+}
+button {
+  background-color: crimson;
+  border-radius: 50px;
+  height: 33vh;
+  width: 100vw;
+  font-size: 120px;
+}
+a {
+  color: aqua;
+}
